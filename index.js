@@ -13,3 +13,19 @@ const buttonSave = document.getElementById('saveChanges');
 buttonSave.addEventListener('click', () => {
     alert('Changes saved!');    
 })
+
+
+// Hey, check this out! This is new. New reference.
+const originalObject = {
+    name: "John",
+    age: 30,
+    hobbies: ["coding", "music"],
+    address: {
+      street: "123 Main St",
+      city: "Erie"
+    }
+  };
+  
+  const clonedObject = structuredClone(originalObject);
+  
+  console.log(clonedObject); 
