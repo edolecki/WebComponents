@@ -7,6 +7,7 @@
     @Class          BBHButton
     @Element        bbh-button
     @Icon Library   https://ionic.io/ionicons
+                    Multiples of 8px are best.
     
     @Description
     A reusable button component with optional data-icon string
